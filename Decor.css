@@ -2,13 +2,53 @@
     padding: 0;
     margin: 0;
 }
-#h1Header{
+.headerContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 45px;
+    max-height: 45px;
+    grid-template-areas: 
+    'h1Header navbar';
+}
+.navbar a{
+    text-decoration: none;
+    color: azure;
+    text-align: left;
+    align-self: stretch;
+}
+.h1Header{
+    grid-area: h1Header;
     background-color: black;
     color: azure;
-    text-align: center;
-    padding: 1.5%;
+    text-align: left;
+    min-height: 45px;
+    max-height: 45px;
 }
-.navbar li{
+.navbar{
+    grid-area: navbar;
+    display: grid;
+    grid-template-areas:
+    'nav1 nav2 nav3';
+    background-color: black;
+    min-height: 45px;
+    max-height: 45px;
+}
+.navbar :hover{
+    background-color: hsl(0, 0%, 25%); 
+}
+.nav1{
+    grid-area: nav1;
+    text-align: center;
+}
+.nav2{
+    grid-area: nav2;
+    text-align: center;
+}
+.nav3{
+    grid-area: nav3;
+    text-align: center;
+}
+/* .navbar li{
     display: grid;
     grid-template-rows: repeat(3,minmax(10px,auto));
     padding: 0;
@@ -30,4 +70,4 @@
 }
 .navbar li:hover{
     background-color: hsl(0, 0%, 25%);
-}
+} */
