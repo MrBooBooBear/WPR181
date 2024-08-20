@@ -60,10 +60,29 @@
     grid-area: nav3;
     text-align: center;
 }
-.biliography{
-    margin-top: 10px;
-}
 .mainContainer{
-    display: grid;
-
+    display: relative;
+    margin: 20px;
+}
+.mainContainer h3{
+    margin: 20px;
+}
+.biliography{
+    position: left;
+    max-width: 200px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.celebrimborPhoto{
+    float: right;
+    margin-left: 20px;
+    padding: 10px;
+    max-width: 200px;
+    height: auto;
+}
+.textContent{
+    overflow: hidden;
+    padding: 10px;
 }
