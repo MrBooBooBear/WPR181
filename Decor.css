@@ -69,11 +69,17 @@
 }
 .biliography{
     position: left;
-    max-width: 200px;
-    height: 400px;
-    padding: 10px;
+    max-width: 350px;
+    height: auto;
+    margin: 25px;
     box-sizing: border-box;
     float: left;
+    background-color: rgb(128, 128, 128, 0.3);
+    border: 1px solid rgb(192, 192, 192, 0.3);
+    box-shadow: 2px 2px 2px;
+}
+.biliography p{
+    margin: 10px;
 }
 .celebrimborPhoto{
     float: right;
@@ -81,8 +87,7 @@
     padding: 10px;
     max-width: 200px;
     height: auto;
-}
-.textContent{
-    overflow: hidden;
-    padding: 10px;
+    background-color: rgb(128, 128, 128, 0.3);
+    border: 1px solid rgb(192, 192, 192, 0.3);
+    box-shadow: 2px 2px 2px;    
 }
