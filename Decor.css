@@ -5,8 +5,8 @@
 .headerContainer{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 45px;
-    max-height: 45px;
+    min-height: 40px;
+    max-height: 40px;
     grid-template-areas: 
     'h1Header navbar';
 }
@@ -21,8 +21,9 @@
     background-color: black;
     color: azure;
     text-align: left;
-    min-height: 45px;
-    max-height: 45px;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 5px;
 }
 .navbar{
     grid-area: navbar;
@@ -30,11 +31,22 @@
     grid-template-areas:
     'nav1 nav2 nav3';
     background-color: black;
-    min-height: 45px;
-    max-height: 45px;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 5px;
 }
 .navbar :hover{
     background-color: hsl(0, 0%, 25%); 
+    scale: 1.15;
+}
+.nav1:active{
+    scale: 0.8;
+}
+.nav2:active{
+    scale: 0.8;
+}
+.nav3:active{
+    scale: 0.8;
 }
 .nav1{
     grid-area: nav1;
@@ -48,26 +60,10 @@
     grid-area: nav3;
     text-align: center;
 }
-/* .navbar li{
+.biliography{
+    margin-top: 10px;
+}
+.mainContainer{
     display: grid;
-    grid-template-rows: repeat(3,minmax(10px,auto));
-    padding: 0;
-    margin: 0;
+
 }
-.navbar ul{
-    list-style-type: none;
-    background-color: black;
-    padding: 0;
-    margin: 0;
-    vertical-align: middle;
-}
-.navbar a{
-    color: azure;
-    text-decoration: none;
-    padding: 1.5%;
-    display: block;
-    text-align: center;
-}
-.navbar li:hover{
-    background-color: hsl(0, 0%, 25%);
-} */
