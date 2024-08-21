@@ -64,9 +64,6 @@
     display: relative;
     margin: 20px;
 }
-.mainContainer h3{
-    margin: 20px;
-}
 .biliography{
     position: left;
     max-width: 350px;
@@ -78,13 +75,19 @@
     border: 1px solid rgb(192, 192, 192, 0.3);
     box-shadow: 2px 2px 2px;
 }
+#biographyHeading{
+    margin: 20px;
+    text-shadow: 2px 2px 2px azure;
+    text-decoration: underline;
+}
 .biliography p{
-    margin: 10px;
+    margin: 10px;    
 }
 .celebrimborPhoto{
     float: left;
     margin-left: 20px;
     padding: 10px;
+    margin-bottom: 15px;
     max-width: 290px;
     height: auto;
 }
