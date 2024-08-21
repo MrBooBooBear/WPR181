@@ -82,12 +82,9 @@
     margin: 10px;
 }
 .celebrimborPhoto{
-    float: right;
+    float: left;
     margin-left: 20px;
     padding: 10px;
-    max-width: 200px;
+    max-width: 290px;
     height: auto;
-    background-color: rgb(128, 128, 128, 0.3);
-    border: 1px solid rgb(192, 192, 192, 0.3);
-    box-shadow: 2px 2px 2px;    
 }
