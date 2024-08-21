@@ -99,8 +99,11 @@
     margin-top: 10px;
     margin-bottom: 25px;
 }
+#mainText{
+    margin-left: 12px;
+}
 .footerContainer{
-    padding-left: 19px;
+    padding-left: 31px;
     background-color: black;
     color: azure;
 }
