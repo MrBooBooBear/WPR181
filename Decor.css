@@ -95,5 +95,7 @@
     height: auto;
 }
 #mainTextHeader{
-
+    text-shadow: 2px 2px 2px azure;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
