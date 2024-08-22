@@ -114,6 +114,7 @@
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Busisiwe Mbana's Part starts */
 body{
     background-color: #1e1e1e; 
@@ -175,6 +176,8 @@ ul li{
 =======
 =======
 >>>>>>> 2e1b8953d79ca18f36bce19ba2e3633951c67dfe
+=======
+>>>>>>> 2e1b895 (Made the contact page)
 .contact{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -212,8 +215,12 @@ ul li{
     margin: 1%;
     text-align: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 >>>>>>> 2e1b895 (Made the contact page)
 =======
 }
 >>>>>>> 2e1b8953d79ca18f36bce19ba2e3633951c67dfe
+=======
+}
+>>>>>>> 2e1b895 (Made the contact page)
