@@ -112,9 +112,6 @@
     text-decoration: none;
     color: azure;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 /* Busisiwe Mbana's Part starts */
 body{
     background-color: #1e1e1e; 
@@ -173,11 +170,6 @@ ul li{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 /* Busisiwe Mbana's Part ends */
-=======
-=======
->>>>>>> 2e1b8953d79ca18f36bce19ba2e3633951c67dfe
-=======
->>>>>>> 2e1b895 (Made the contact page)
 .contact{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -185,7 +177,7 @@ ul li{
     padding: 5%;
     
 }
-.box{
+/* .box{
     box-sizing: border-box;
     float: right;
     background-color: rgb(128, 128, 128, 0.3);
@@ -193,7 +185,7 @@ ul li{
     box-shadow: 2px 2px 2px;
     padding: 5%;
     margin: 3%;
-}
+} */
 .contact a{
     text-decoration: none;
 }
@@ -214,13 +206,5 @@ ul li{
 .contact h3{
     margin: 1%;
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
->>>>>>> 2e1b895 (Made the contact page)
-=======
-}
->>>>>>> 2e1b8953d79ca18f36bce19ba2e3633951c67dfe
-=======
-}
->>>>>>> 2e1b895 (Made the contact page)
+
