@@ -1,0 +1,106 @@
+.container{
+    
+    text-align: right;
+    background: linear-gradient(45deg, rgb(118, 143, 210),beige);
+    
+    gap: 20px;
+    border: solid black;
+    padding: 180px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+  
+
+.one{
+    background-color: grey;
+    margin: 0;
+    text-align: left;
+    border: solid 3px black;
+    padding: 10px;
+    gap: 10px;
+
+}
+.two{
+    border: solid 3px black;
+    background-color: azure;
+    text-align: left;
+    padding: 10px;
+    gap: 10px;
+}
+.three{
+    border: solid 3px black;
+    background-color: rgb(151, 239, 239);
+    padding: 10px;
+    gap: 10px;
+}
+.rop{
+    
+    color: cadetblue;
+    font-family: fantasy;
+    font-weight: 3px;
+    text-shadow: 8px;
+    text-align: center;
+    font-size: 70pt;
+    letter-spacing: 2px;
+    border:solid 4px black;
+}
+.ring{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+#picture{
+    width: 100px;
+    height: 90px;
+    align-content: left;
+    border: solid 2px;
+    border-radius: 8px;
+    border-color: yellow;
+    
+}
+#picture2{
+    
+    width: 200px;
+    height: 180px;
+    align-content: center;
+    border: solid 3px;
+    border-color: yellow;
+    
+}
+.imgSec2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 10px;
+
+}
+.head1{
+    text-align: center;
+    font-style: oblique;
+    font-family: cursive;
+    color: rgba(62, 66, 63, 0.984);
+    font-weight: bold;
+    text-shadow: 8px;
+    padding: 10px;
+}
+.imgSec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: rgb(46, 46, 46);
+    background-color: grey;
+    padding: 10px;
+}
+.Man{
+    align-content: center;
+    border: 5px;
+    border-color: yellow;
+}
