@@ -112,9 +112,24 @@
 }
 .footerContainer{
     display: grid;
+    grid-template-areas:
+    'foot1 foot2 foot3';
     padding-left: 31px;
     background-color: black;
     color: azure;
+}
+.footer1{
+    grid-area: foot1;
+    text-align: left;
+}
+.footer2{
+    grid-area: foot2;
+    text-align: center;
+}
+.footer3{
+    grid-area: foot3;
+    text-align: right;
+    padding-right: 25px;
 }
 .footerContainer a{
     text-decoration: none;
