@@ -1,3 +1,4 @@
+/* Fourie's work starts here */
 * {
     font-family: 'Arial', sans-serif;
     padding: 0;
@@ -39,14 +40,15 @@
 .navbar :hover{
     background-color: hsl(0, 0%, 25%); 
     scale: 1.15;
+    transition: 0.165s ease;
 }
-.nav1:active{
+.nav1 :active{
     scale: 0.8;
 }
-.nav2:active{
+.nav2 :active{
     scale: 0.8;
 }
-.nav3:active{
+.nav3 :active{
     scale: 0.8;
 }
 .nav1{
@@ -87,6 +89,10 @@
 .biliography p{
     margin: 10px;    
 }
+.boldHome{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
 .celebrimborPhoto{
     float: left;
     margin-left: 20px;
@@ -99,11 +105,13 @@
     text-shadow: 2px 2px 2px black;
     margin-top: 10px;
     margin-bottom: 25px;
+    color: #9acd32;
 }
 #mainText{
     margin-left: 12px;
 }
 .footerContainer{
+    display: grid;
     padding-left: 31px;
     background-color: black;
     color: azure;
@@ -112,6 +120,7 @@
     text-decoration: none;
     color: azure;
 }
+/* Fourie's work end's here */
 /* Busisiwe Mbana's Part starts */
 body{
     background-color: #1e1e1e; 
