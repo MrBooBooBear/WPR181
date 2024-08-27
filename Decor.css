@@ -1,3 +1,4 @@
+/* Fourie's work starts here */
 * {
     font-family: 'Arial', sans-serif;
     padding: 0;
@@ -5,9 +6,8 @@
 }
 .headerContainer{
     display: grid;
+    height: 4vh;
     grid-template-columns: repeat(2, 1fr);
-    min-height: 40px;
-    max-height: 40px;
     grid-template-areas: 
     'h1Header navbar';
 }
@@ -22,8 +22,6 @@
     background-color: black;
     color: azure;
     text-align: left;
-    min-height: 40px;
-    max-height: 40px;
     padding: 5px;
 }
 .navbar{
@@ -32,21 +30,20 @@
     grid-template-areas:
     'nav1 nav2 nav3';
     background-color: black;
-    min-height: 40px;
-    max-height: 40px;
     padding: 5px;
 }
 .navbar :hover{
     background-color: hsl(0, 0%, 25%); 
     scale: 1.15;
+    transition: 0.165s ease;
 }
-.nav1:active{
+.nav1 :active{
     scale: 0.8;
 }
-.nav2:active{
+.nav2 :active{
     scale: 0.8;
 }
-.nav3:active{
+.nav3 :active{
     scale: 0.8;
 }
 .nav1{
@@ -63,6 +60,7 @@
 }
 .mainContainer{
     display: relative;
+    min-height: 86.5vh;
     margin: 20px;
 }
 .biliography{
@@ -87,6 +85,10 @@
 .biliography p{
     margin: 10px;    
 }
+.boldHome{
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
 .celebrimborPhoto{
     float: left;
     margin-left: 20px;
@@ -99,19 +101,113 @@
     text-shadow: 2px 2px 2px black;
     margin-top: 10px;
     margin-bottom: 25px;
+    color: #9acd32;
 }
 #mainText{
     margin-left: 12px;
 }
 .footerContainer{
+    position: relative;
+    bottom: 0;
+    min-height: 5vh;
+    display: grid;
+    grid-template-areas:
+    'foot1 foot2 foot3';
     padding-left: 31px;
     background-color: black;
     color: azure;
+}
+.footer1{
+    grid-area: foot1;
+    text-align: left;
+}
+.footer2{
+    grid-area: foot2;
+    text-align: center;
+}
+.footer3{
+    grid-area: foot3;
+    text-align: right;
+    padding-right: 25px;
 }
 .footerContainer a{
     text-decoration: none;
     color: azure;
 }
+.popup{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.popupContent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Additional pages/Images/Wood background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+}
+.popupContent2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    background-image: url('Additional pages/Images/Rose.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.barmaidensText{
+    color: white;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.noScroll {
+    overflow: hidden;
+}
+.popupLegend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.popup1img{
+    display: block;
+    height: 30vh;
+    width: auto;
+}
+.popup1text{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+/* Fourie's work end's here */
 /* Busisiwe Mbana's Part starts */
 body{
     background-color: #1e1e1e; 
@@ -177,15 +273,6 @@ ul li{
     padding: 5%;
     
 }
-/* .box{
-    box-sizing: border-box;
-    float: right;
-    background-color: rgb(128, 128, 128, 0.3);
-    border: 1px solid rgb(192, 192, 192, 0.3);
-    box-shadow: 2px 2px 2px;
-    padding: 5%;
-    margin: 3%;
-} */
 .contact a{
     text-decoration: none;
 }
@@ -207,4 +294,3 @@ ul li{
     margin: 1%;
     text-align: center;
 }
-
