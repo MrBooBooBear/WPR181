@@ -8,8 +8,6 @@
     display: grid;
     height: 4vh;
     grid-template-columns: repeat(2, 1fr);
-    /* min-height: 40px;
-    max-height: 40px; */
     grid-template-areas: 
     'h1Header navbar';
 }
@@ -24,8 +22,6 @@
     background-color: black;
     color: azure;
     text-align: left;
-    /* min-height: 40px;
-    max-height: 40px; */
     padding: 5px;
 }
 .navbar{
@@ -34,8 +30,6 @@
     grid-template-areas:
     'nav1 nav2 nav3';
     background-color: black;
-    /* min-height: 40px;
-    max-height: 40px; */
     padding: 5px;
 }
 .navbar :hover{
@@ -174,12 +168,14 @@
     border-radius: 5px;
     width: 50%;
     text-align: center;
-}
-.barmaidensHeader{
-    color: red;
+    background-image: url('Additional pages/Images/Rose.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .barmaidensText{
-    color: black;
+    color: white;
 }
 .close{
     position: absolute;
@@ -277,15 +273,6 @@ ul li{
     padding: 5%;
     
 }
-/* .box{
-    box-sizing: border-box;
-    float: right;
-    background-color: rgb(128, 128, 128, 0.3);
-    border: 1px solid rgb(192, 192, 192, 0.3);
-    box-shadow: 2px 2px 2px;
-    padding: 5%;
-    margin: 3%;
-} */
 .contact a{
     text-decoration: none;
 }
@@ -307,4 +294,3 @@ ul li{
     margin: 1%;
     text-align: center;
 }
-
