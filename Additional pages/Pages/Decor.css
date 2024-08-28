@@ -215,6 +215,8 @@ body{
     line-height: 2;
     margin: 0;
     padding: 0;
+    position: relative;
+    width: 100vw;
 
 }
 #headers{
@@ -382,6 +384,14 @@ fieldset >* h4{
     background-color: #f5f5f5;
     border-radius: 6px;
 }
+.intro-image{
+    height: auto;
+    width: 70%;
+}
+.feature-image{
+    height: auto;
+    width: 70%;
+}
 
 @media screen and (max-width: 768px) {
     .contact{
@@ -442,6 +452,14 @@ fieldset >* h4{
         margin-bottom: 15px;
         max-width: 75%;
         height: auto;
+    }
+    .intro-image{
+        height: auto;
+        width: 100%;
+    }
+    .feature-image{
+        height: auto;
+        width: 100%;
     }
 }
 /* Pandora Greyling's work ends here */
