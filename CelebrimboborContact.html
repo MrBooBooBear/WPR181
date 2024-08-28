@@ -19,6 +19,7 @@
       </nav>
     </header>
     <!-- Fourie's work ends here -->
+    <!-- Pandora Greyling's work starts here -->
     <main class="mainContainer">
       <section class="contact">
         <h1 class="contact-heading">Get in contact:</h1>
@@ -32,12 +33,54 @@
           <p>Mailing address: In the smithies of the Gwaith-i-Mírdain</p>
           <p>Email: <a href="">smithcelebrimbor@gwaith-i-mírdain.com</a></p>
         </article>
+        <!-- <article class="media-contact section">
+          <h3>My Social media:</h3>
+          <p></p>
+          <p></p>
+        </article> -->
+        <fieldset class="contact-form section">
+          <legend><h4>Enquiry Form</h4></legend>
+          <form action="" class="input-form">
+            <aside class="fname">
+              <label for="fname">First Name:</label>
+              <input type="text" name="fname" id="fname">
+            </aside>
+            <aside class="sname">
+              <label for="sname">Surname:</label>
+              <input type="text" name="sname" id="sname">
+            </aside>
+            <aside class="telephone">
+              <label for="telephone">Telephone number:</label>
+              <input type="tel" name="telephone" id="telephone" required pattern="[0-9]{10}">
+            </aside>
+            <aside class="email">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+            </aside>
+            <aside class="what-business">
+              <label for="what-business">What business do you need?</label>
+              <input list="business" name="what-business" id="what-business" required>
+              <datalist id="business">
+                <option value="smith">
+                <option value="royal">
+              </datalist>
+            </aside>
+            <aside class="desc">
+              <label for="desc" id="desc-label">Describe your plight(you can resize the window):</label>
+              <textarea name="desc" id="desc"></textarea>
+            </aside>
+            <aside class="submit">
+              <input type="submit" value="Submit your request" id="submit">
+            </aside>
+          </form>
+        </fieldset>
       </section>
     </main>
+    <!-- Pandora Greyling's work ends here -->
     <footer class="footerContainer">
-      <section class="footer1">autor: Mellon</section>
-      <section class="footer2">&copy; copyright not reserved</section>
-      <section class="footer3"><a href="">email me</a></section>
+      <section class="footer1">Author: Mellon</section>
+      <section class="footer2">&copy; Copyright not reserved</section>
+      <section class="footer3"><a href="">Email me</a></section>
     </footer>
     </footer>
   </body>

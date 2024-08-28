@@ -266,31 +266,182 @@ ul li{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 /* Busisiwe Mbana's Part ends */
+/* Pandora Greyling's work starts here */
 .contact{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,minmax(200px, auto));
+    grid-template-areas: 'contactheading royal' 
+                        'contactmedia smith' 
+                        'contactform contactform';
     padding: 5%;
     
 }
 .contact a{
     text-decoration: none;
+    color: #759b29;
+}
+.royal-contact{
+    grid-area: royal;
+    width: 75%;
 }
 .smith-contact{
-    grid-column: 2/3;
+    grid-area: smith;
+    width: 75%;
 }
 .contact-heading{
-    grid-column: 1/1;
+    grid-area: contactheading;
     text-align:  right;
     padding: 5%;
+    color: #9acd32;
 }
-.bottom{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+fieldset >* h4{
+    color: #9acd32;
 }
 .contact h3{
     margin: 1%;
     text-align: center;
 }
+.media-contact{
+    grid-area: contactmedia;
+    width: 75%;
+}
+.contact-form{
+    border: none;
+    grid-area: contactform;
+    width: 75%;
+}
+.input-form{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(5,maxmin(10%,auto));
+    grid-template-areas: 'fname sname' 
+                'tel email'
+                'business business'
+                'desc desc'
+                'submit submit';
+}
+
+.fname{
+    grid-area: fname;
+}
+.sname{
+    grid-area: sname;
+}
+.telephone{
+    grid-area: tel;
+}
+.email{
+    grid-area: email;
+}
+.what-business{
+    grid-area: business;
+}
+.submit{
+    grid-area: submit;
+}
+#submit{
+    background-color:#555;
+    border: solid 1px #1e1e1e;
+    border-radius: 10px;
+    padding: .4em;
+    margin: 0.5em 43%;
+}
+.desc{
+    grid-area: desc;
+
+    height: auto;
+    margin-bottom: 2em ;
+}
+#desc{
+    height: minmax(10em,auto);
+    width: 100%;
+    /* align-items: center; */
+    resize: vertical;
+    text-align: justify;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+#fname{    
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+#sname{
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+#telephone{
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+#email{
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+#what-business{
+    background-color: #f5f5f5;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 5% repeat(5,25%);
+        grid-template-areas: 'contactheading'
+                            'royal' 
+                            /* 'contactmedia'*/
+                            'smith' 
+                            'contactform''contactform';
+        padding: 5%;
+    
+    }
+    .contact-heading{
+        text-align: left;
+
+    }
+    .input-form{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6,maxmin(10%,auto));
+        grid-template-areas: 'fname'
+                    'sname' 
+                    'tel'
+                    'email'
+                    'business'
+                    'desc'
+                    'desc'
+                    'submit';
+    }
+    .headerContainer{
+        display: grid;
+        height: 4vh;
+        margin-bottom: 10%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'h1Header''navbar';
+    }
+    .biliography{
+        position: left;
+        max-width: 100%;
+        height: auto;
+        margin-top: 42px;
+        margin-right: 30px;
+        margin-left: 12px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        float: left;
+        background-color: rgb(128, 128, 128, 0.3);
+        border: 1px solid rgb(192, 192, 192, 0.3);
+        box-shadow: 2px 2px 2px;
+    }
+    .celebrimborPhoto{
+        float: left;
+        margin-left: 20px;
+        padding: 10px;
+        margin-bottom: 15px;
+        max-width: 75%;
+        height: auto;
+    }
+}
+/* Pandora Greyling's work ends here */
