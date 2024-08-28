@@ -1,3 +1,213 @@
+* {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.headerContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 40px;
+    max-height: 40px;
+    grid-template-areas: 
+    'h1Header navbar';
+}
+.navbar a{
+    text-decoration: none;
+    color: azure;
+    text-align: left;
+    align-self: stretch;
+}
+.h1Header{
+    grid-area: h1Header;
+    background-color: black;
+    color: azure;
+    text-align: left;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 5px;
+}
+.navbar{
+    grid-area: navbar;
+    display: grid;
+    grid-template-areas:
+    'nav1 nav2 nav3';
+    background-color: black;
+    min-height: 40px;
+    max-height: 40px;
+    padding: 5px;
+}
+.navbar :hover{
+    background-color: hsl(0, 0%, 25%); 
+    scale: 1.15;
+}
+.nav1:active{
+    scale: 0.8;
+}
+.nav2:active{
+    scale: 0.8;
+}
+.nav3:active{
+    scale: 0.8;
+}
+.nav1{
+    grid-area: nav1;
+    text-align: center;
+}
+.nav2{
+    grid-area: nav2;
+    text-align: center;
+}
+.nav3{
+    grid-area: nav3;
+    text-align: center;
+}
+.mainContainer{
+    display: relative;
+    margin: 20px;
+}
+.biliography{
+    position: left;
+    max-width: 350px;
+    height: auto;
+    margin-top: 42px;
+    margin-right: 30px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+    background-color: rgb(128, 128, 128, 0.3);
+    border: 1px solid rgb(192, 192, 192, 0.3);
+    box-shadow: 2px 2px 2px;
+}
+#biographyHeading{
+    margin: 20px;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+}
+.biliography p{
+    margin: 10px;    
+}
+.celebrimborPhoto{
+    float: left;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    max-width: 290px;
+    height: auto;
+}
+#mainTextHeader{
+    text-shadow: 2px 2px 2px black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#mainText{
+    margin-left: 12px;
+}
+.footerContainer{
+    padding-left: 31px;
+    background-color: black;
+    color: azure;
+}
+.footerContainer a{
+    text-decoration: none;
+    color: azure;
+}
+/* Busisiwe Mbana's Part starts */
+body{
+    background-color: #1e1e1e; 
+    color: #f5f5f5;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+
+}
+#headers{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    margin: 0;
+    font-size: 2.5em;
+}
+.section{
+    padding: 30px;
+    margin: 20px auto;
+    background-color: #282828; 
+    border-radius: 10px;
+    
+}
+h3{
+    color: #9acd32;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    margin: 10px;
+}
+#gallery{
+    margin-top: 30px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 0;
+}
+.image-grid img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #444;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-grid img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+/* Busisiwe Mbana's Part ends */
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,minmax(200px, auto));
+    padding: 5%;
+    
+}
+/* .box{
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(128, 128, 128, 0.3);
+    border: 1px solid rgb(192, 192, 192, 0.3);
+    box-shadow: 2px 2px 2px;
+    padding: 5%;
+    margin: 3%;
+} */
+.contact a{
+    text-decoration: none;
+}
+.smith-contact{
+    grid-column: 2/3;
+}
+.contact-heading{
+    grid-column: 1/1;
+    text-align:  right;
+    padding: 5%;
+}
+.bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.contact h3{
+    margin: 1%;
+    text-align: center;
+}
+/*Sisa Jubane's part starts*/
 .container{
     font-family: 'Arial', sans-serif;
     line-height: 2;
@@ -202,3 +412,4 @@ color:#9acd32;
 text-align: center;
 width: 50%;
 }
+/*Sisa Jubane's part ends*/
